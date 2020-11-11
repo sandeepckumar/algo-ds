@@ -105,7 +105,7 @@ const ascii2bin = (input) => {
     if (bin.length < 8) {
       result.push(("00000000" + bin).slice(-8));
     } else {
-      result.push(toBinary(ascii[_]));
+      result.push(bin);
     }
   }
 
